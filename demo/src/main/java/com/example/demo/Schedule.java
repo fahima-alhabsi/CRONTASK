@@ -56,11 +56,15 @@ public class Schedule {
 //        System.out.println("Hello fahima");
 //    }
 
-    //(problem 8)
-    @Scheduled(cron = "0 0 9-16 * * 1-5")
+//    //(problem 8)
+//    @Scheduled(cron = "0 0 9-16 * * 1-5")
+//    public void schedualing(){
+//        System.out.println("Hello fahima");
+//    }
+    //(problem 9)
+    @Scheduled(cron = " 0 3 * * * *")
     public void schedualing(){
         System.out.println("Hello fahima");
     }
-
 
 }
