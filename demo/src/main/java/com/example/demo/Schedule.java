@@ -51,10 +51,14 @@ public class Schedule {
 
 
     //(problem 7)
-    @Scheduled(cron = " 0 30 19,22 * * 0")
+//    @Scheduled(cron = " 0 30 19,22 * * 0")
+//    public void schedualing(){
+//        System.out.println("Hello fahima");
+//    }
+
+    //(problem 8)
+    @Scheduled(cron = "0 0 9-16 * * 1-5")
     public void schedualing(){
-
-
         System.out.println("Hello fahima");
     }
 
