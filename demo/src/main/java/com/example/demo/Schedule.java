@@ -86,11 +86,15 @@ public class Schedule {
 //    }
 
     //(problem 13
+//    @Scheduled(cron = "0 0 18 * 3-10 0-6")
+//    public void schedualing(){
+//        System.out.println("Hello fahima");
+//    }
+
+    //(problem 14
     @Scheduled(cron = "0 0 18 * 3-10 0-6")
     public void schedualing(){
         System.out.println("Hello fahima");
     }
-
-
 
 }
