@@ -61,10 +61,26 @@ public class Schedule {
 //    public void schedualing(){
 //        System.out.println("Hello fahima");
 //    }
-    //(problem 9)
-    @Scheduled(cron = " 0 3 * * * *")
+//    //(problem 9)
+//    @Scheduled(cron = " 0 3 * * * *")
+//    public void schedualing(){
+//        System.out.println("Hello fahima");
+//    }
+    //(problem 10)
+//    @Scheduled(cron = "0 * * 1-31 1 *")
+//    public void schedualing(){
+//        System.out.println("Hello fahima");
+//    }
+
+//(problem 11)
+//    @Scheduled(cron = "0 */30 8-16 * * 1-5")
+//    public void schedualing(){
+//        System.out.println("Hello fahima");
+//    }
+
+    //(problem 12)
+    @Scheduled(cron = "0 0 * 15 * *")
     public void schedualing(){
         System.out.println("Hello fahima");
     }
-
 }
