@@ -104,7 +104,18 @@ public class Schedule {
 //    }
 
     //(problem 16)
-    @Scheduled(cron = "0 0 * 1-15 * *")
+//    @Scheduled(cron = "0 0 * 1-15 * *")
+//    public void schedualing(){
+//        System.out.println("Hello fahima");
+//    }
+
+    //(problem 17)
+//    @Scheduled(cron = "0 0 * 1-15 * *")
+//    public void schedualing(){
+//        System.out.println("Hello fahima");
+//    }
+    //(problem 18)
+    @Scheduled(cron = "0 30 23 * * 5")
     public void schedualing(){
         System.out.println("Hello fahima");
     }
