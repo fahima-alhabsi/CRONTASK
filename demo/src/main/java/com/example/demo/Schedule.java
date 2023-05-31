@@ -80,8 +80,17 @@ public class Schedule {
 
 
     //(problem 12)
-    @Scheduled(cron = "0 0 * 15 * *")
+//    @Scheduled(cron = "0 0 * 15 * *")
+//    public void schedualing(){
+//        System.out.println("Hello fahima");
+//    }
+
+    //(problem 13
+    @Scheduled(cron = "0 0 18 * 3-10 0-6")
     public void schedualing(){
         System.out.println("Hello fahima");
     }
+
+
+
 }
