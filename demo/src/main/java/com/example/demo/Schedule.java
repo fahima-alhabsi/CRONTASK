@@ -41,8 +41,11 @@ public class Schedule {
 
 
     //(problem 6)
+
     @Scheduled(cron = " 0 30 19,22 * * 0")
     public void schedualing(){
+
+
         System.out.println("Hello fahima");
     }
 
