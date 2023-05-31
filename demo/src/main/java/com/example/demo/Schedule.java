@@ -98,8 +98,15 @@ public class Schedule {
 //    }
 
     //(problem 15)
-    @Scheduled(cron = "0 */10 9-17 * * 1-5")
+//    @Scheduled(cron = "0 */10 9-17 * * 1-5")
+//    public void schedualing(){
+//        System.out.println("Hello fahima");
+//    }
+
+    //(problem 16)
+    @Scheduled(cron = "0 0 * 1-15 * *")
     public void schedualing(){
         System.out.println("Hello fahima");
     }
 }
+
