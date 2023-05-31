@@ -92,9 +92,14 @@ public class Schedule {
 //    }
 
     //(problem 14
-    @Scheduled(cron = "0 0 18 * 3-10 0-6")
+//    @Scheduled(cron = "0 0 18 * 3-10 0-6")
+//    public void schedualing(){
+//        System.out.println("Hello fahima");
+//    }
+
+    //(problem 15)
+    @Scheduled(cron = "0 */10 9-17 * * 1-5")
     public void schedualing(){
         System.out.println("Hello fahima");
     }
-
 }
