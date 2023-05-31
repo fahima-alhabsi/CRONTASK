@@ -24,8 +24,17 @@ public class Schedule {
 //    }
 
     //(problem 4)
-    @Scheduled(cron = "0 0 8 * * 1")
+//    @Scheduled(cron = "0 0 8 * * 1")
+//    public void schedualing(){
+//        System.out.println("Hello fahima");
+//    }
+
+    //(problem 5)
+    @Scheduled(cron = "0 0 3 1 * *")
     public void schedualing(){
         System.out.println("Hello fahima");
     }
+
+
+
 }
